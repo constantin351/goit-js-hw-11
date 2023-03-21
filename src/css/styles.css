@@ -12,10 +12,44 @@ body {
   line-height: 1.5;
 }
 
+.search-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background: lightblue;
+}
+
+.search-form input {
+  border-radius: 5px;
+  padding: 10px;
+  width: 400px;
+  font-size: 16px;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+}
+
+.search-form button {
+  border-radius: 5px;
+  width: 100px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  background: greenyellow;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 18px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  justify-content: center;
 }
 
 .photo-card {
@@ -55,4 +89,13 @@ img {
 
 .load-more.is-visible {
   display: block;
+  width: 150px;
+  cursor: pointer;
+  background: #adff2f;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto;
 }
