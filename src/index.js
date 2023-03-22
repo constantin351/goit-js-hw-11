@@ -64,9 +64,9 @@ async function onFormSubmit(event) {
 
 
 
-loadMoreBtn.addEventListener("click", loadMoreBtnClick);
+loadMoreBtn.addEventListener("click", onLoadMoreBtnClick);
     
-async function loadMoreBtnClick() {
+async function onLoadMoreBtnClick() {
     pageNumber += 1;
     
     try {
